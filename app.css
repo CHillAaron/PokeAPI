@@ -1,0 +1,29 @@
+ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* li img:hover{
+    height: 150%;
+}
+li:hover{
+    margin: 50px;
+} */
+
+container{
+    display: flex;
+    flex-direction: row;
+}
+.sideBar{
+    display: flex;
+    align-items: top;
+    margin: 25px;
+}
+#pokedex{
+    max-width: 50%;
+}
